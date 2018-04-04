@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label id="errors" layoutX="35.0" layoutY="296.0" text="Errors" textFill="#d30d0d" visible="false" />
+      <TextField id="name" layoutX="190.0" layoutY="42.0" />
+      <Label layoutX="54.0" layoutY="87.0" text="Parent" />
+      <TextField id="parentName" disable="true" layoutX="190.0" layoutY="82.0" />
+      <Button id="create" layoutX="45.0" layoutY="175.0" mnemonicParsing="false" text="Create" />
+      <Button id="back" layoutX="128.0" layoutY="175.0" mnemonicParsing="false" text="Cancel" />
+   </children>
+</AnchorPane>

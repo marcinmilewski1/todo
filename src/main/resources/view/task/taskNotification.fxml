@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.my.todo.controller.task.NotificationTaskController">
+   <children>
+      <TextField fx:id="name" layoutX="193.0" layoutY="49.0" />
+      <Label layoutX="82.0" layoutY="54.0" text="Name" />
+      <Label layoutX="82.0" layoutY="103.0" text="Description" />
+      <TextArea fx:id="desc" layoutX="192.0" layoutY="95.0" prefHeight="85.0" prefWidth="171.0" />
+      <VBox layoutX="76.0" layoutY="269.0">
+         <children>
+            <Button fx:id="dontRemind" layoutX="76.0" layoutY="269.0" mnemonicParsing="false" onAction="#onDontRemindClicked" text="Don't remind" AnchorPane.bottomAnchor="10.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="202.0" layoutY="269.0">
+         <children>
+            <Button fx:id="remindForOneHour" layoutX="202.0" layoutY="269.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" onAction="#onRemindForOneHourClicked" text="Remind for one hour">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <VBox layoutX="376.0" layoutY="269.0">
+         <children>
+            <Button fx:id="remindTommorow" layoutX="376.0" layoutY="279.0" mnemonicParsing="false" onAction="#onRemindTommorowClicked" text="Remind tommorow" AnchorPane.bottomAnchor="10.0">
+               <opaqueInsets>
+                  <Insets bottom="10.0" />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets right="10.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

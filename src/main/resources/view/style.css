@@ -1,0 +1,16 @@
+.root {
+    -fx-background-image: url("background.jpg");
+}
+
+.list-view {
+    -fx-border-width: 2;
+    -fx-background-color: antiquewhite;
+    -fx-border-color: gray;
+}
+
+.list-cell {
+    -fx-arrows-visible: true;
+}
+.text-area {
+    -fx-border-style: solid;
+}
